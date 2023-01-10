@@ -1,5 +1,8 @@
 package JavaSE.chapter03;
 
+import JavaSE.chapter04.Java17_Object_Access;
+
+
 /**
  * @PackageName: JavaEE.chapter03
  * @ProjectName: Java_atguigu
@@ -23,5 +26,11 @@ public class Java01_FlowControl {
 
         // 3、重复执行
 
+
+        // 权限检验
+        Java17_Object_Access user17 = new Java17_Object_Access();
+//        System.out.println(user17.name); //错误
+        System.out.println(user17.username); //对
+//        System.out.println(user17.sex); //错误，不在同一包下
     }
 }

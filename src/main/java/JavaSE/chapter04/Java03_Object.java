@@ -29,5 +29,11 @@ public class Java03_Object {
 
 
          */
+
+        User17 user17 = new User17();
+        System.out.println(user17.sex); //验证默认权限
+
+        Child17 child17 = new Child17();
+        System.out.println(child17.age); //protected在不同包的子类中也可以访问
     }
 }
