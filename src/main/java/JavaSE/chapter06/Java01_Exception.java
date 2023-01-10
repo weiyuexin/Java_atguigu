@@ -1,5 +1,8 @@
 package JavaSE.chapter06;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @PackageName: JavaSE.chapter06
  * @ProjectName: Java_atguigu
@@ -31,5 +34,6 @@ public class Java01_Exception {
     }
 }
 class User{
+
 
 }
